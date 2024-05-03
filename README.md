@@ -7,7 +7,7 @@
 ~~~txt
 third_lib
 ├── .gitignore
-├── makefile
+├── CMakeLists.txt
 ├── LICENSE.md
 ├── README.md
 ├── doc                         # 项目文档
