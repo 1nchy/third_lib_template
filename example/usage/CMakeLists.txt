@@ -16,9 +16,9 @@ target_include_directories(${PROJECT_NAME}
 
 set(THIRD_LIB_NAME third_lib)  # replace your third lib name
 find_library(third_lib_${THIRD_LIB_NAME} ${THIRD_LIB_NAME} ../../lib)
-message(STATUS "third lib = " ${third_lib_fsm})
+message(STATUS "third lib = " ${third_lib_${THIRD_LIB_NAME}})
 target_link_libraries(${PROJECT_NAME}
-    PUBLIC ${third_lib_fsm}
+    PUBLIC ${third_lib_${THIRD_LIB_NAME}}
 )
 
 add_subdirectory(src)
