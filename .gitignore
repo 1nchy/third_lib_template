@@ -15,7 +15,3 @@
 
 !/example
 !/example/*
-
-!/.vscode
-!/.vscode/launch.json
-!/.vscode/tasks.json
